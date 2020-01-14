@@ -1,6 +1,4 @@
-# RoboConWorkshop
-
-RoboConWorkshop2020 - End-to-end testing through multiple interfaces
+# RoboConWorkshop2020 - End-to-end testing through multiple interfaces
 
 Welcome to the repository for our workshop!
 
@@ -22,29 +20,56 @@ pip install -r requirements.txt
 
 from inside the repository folder.
 
+---
+
+## Optional - Virtual Enviroment
+
 If you don't want to install the package in your current python enviroment you can follow the instructions down below on how to set up a virtual enviroment.
-
-### Windows
-
-
-
-### Mac and Linux
 
 ---
 
-To active the virtual enviroment you have to run one of these commands from the root of the repo.
+### Windows
 
-Run this one if you are using cmd:
+To create the virtual enviroment in Windows run this command in the root of the workshop directory:
+
+```
+python3 -m venv .\Python_Enviroment
+```
+
+#### Activating the virtual enviroment in cmd.exe
+
+If you are using cmd.exe, run this command to activate the virtual enviroment:
+
 ```
 .\Python_Enviroment\Scripts\activate.bat
 ```
 
-This on in Powershell:
+After activating the enviroment you can follow the instructions up in *Installation package*. The libraries will only be installed in the virtual enviroment.
+
+#### Activating the virtual enviroment in PowerShell
+
+If you are using Powershell, run this command to activate the virtual enviroment:
+
 ```
 .\Python_Enviroment\Scripts\Activate.ps1
 ```
 
-If none of them would work you can install all the packages directly with this command (also run from the root of the repo):
+After activating the enviroment you can follow the instructions up in *Installation package*. The libraries will only be installed in the virtual enviroment.
+
+---
+
+### Mac and Linux
+
+To create the virtual enviroment in Mac or Linux run this command in the root of the workshop directory:
+
 ```
-pip install -r requirements.txt
+python3 -m venv /Python_Enviroment
 ```
+
+To activate the enviroment run this:
+
+```
+source Python_Enviroment/bin/activate
+```
+
+After activating the enviroment you can follow the instructions up in *Installation package*. The libraries will only be installed in the virtual enviroment.
